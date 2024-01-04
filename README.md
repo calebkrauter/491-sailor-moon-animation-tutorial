@@ -1,4 +1,4 @@
-# 491-sailor-moon-animation-tutorial
+# 491-sprite-animation-tutorial
 
 UWT
 Class: 491 Game and Simulation Design
