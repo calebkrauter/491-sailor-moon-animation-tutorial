@@ -1,14 +1,14 @@
-class Fox {
+class Chad {
 
     constructor(game) {
         this.game = game;
         this.animator = new Animator(ASSET_MANAGER.getAsset(
-            "sprite-sheet-fox-running.png"), 0, 0, 50, 50, 9, 0.09
+            "chad-spritesheet-ripped.png"), 0, 0, 64, 64, 32, .1
             );
 
         this.x = 0;
         this.y = 0;
-        this.speed = 400;
+        this.speed = 0;
 
     };
 

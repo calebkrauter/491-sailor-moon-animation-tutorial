@@ -2,7 +2,7 @@ const gameEngine = new GameEngine();
 
 const ASSET_MANAGER = new AssetManager();
 
-ASSET_MANAGER.queueDownload("sprite-sheet-fox-running.png");
+ASSET_MANAGER.queueDownload("chad-spritesheet-ripped.png");
 
 ASSET_MANAGER.downloadAll(() => {
 	const canvas = document.getElementById("gameWorld");
@@ -10,7 +10,7 @@ ASSET_MANAGER.downloadAll(() => {
 	ctx.imageSmoothingEnabled = false;
 
 
-	gameEngine.addEntity(new Fox(gameEngine));
+	gameEngine.addEntity(new Chad(gameEngine));
 
 	gameEngine.init(ctx);
 
